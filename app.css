@@ -1,0 +1,87 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input {
+  width: 40%;
+  padding: 12px 20px;
+}
+
+input[type=button] {
+  background-color: rgb(128, 206, 128);
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 10px;
+  margin-left: 35.3%;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.field label {
+  display: inline-block;
+  width: 30%;
+  text-align: right;
+}
+
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: auto;
+  height: 20%;
+}
+
+td {
+  border: 1px solid black;
+  height: 1em;
+  width: 1em;
+  text-align: center;
+}
+
+.class1 {
+  background-color: rgb(120, 120, 206);
+}
+
+.class1::before {
+  content: "A";
+}
+
+.class2 {
+  background-color: rgb(128, 206, 128);
+}
+
+.class2::before {
+  content: "W";
+}
+
+.class3 {
+  background-color: rgb(206, 134, 158);
+}
+
+.class3::before {
+  content: "M";
+}
+
+form {
+  width: 50%;
+  height: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#seats {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 70%;
+  height: 100%;
+}
