@@ -1,6 +1,6 @@
 # AirplaneSeatngAlgorithm
 
-## Rules	for	sea+ng	
+## Rules	for	seatng	
 1. Always	seat	passengers	star:ng	from	the	front	row	to	back ,startng from the left to the right	
 
 2. Fill	aisle seats	first followed by window seats followed	by center seats(any	order in center	seats)	
